@@ -38,10 +38,10 @@ module.exports = {
         enabled: false
       },
       google: {
-        clientID: 'DEFAULT_APP_ID',
-        clientSecret: 'APP_SECRET',
+        clientID: '1019400455574-lqq6slo5jd224r3r1m1he4urd2k9ast1.apps.googleusercontent.com',
+        clientSecret: 'APP_SECRET', // to be fetched later
         callbackURL: 'http://localhost:3000/api/auth/google/callback',
-        enabled: false
+        enabled: true
       },
       linkedin: {
         clientID: 'DEFAULT_API_KEY',
